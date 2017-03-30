@@ -1,0 +1,10 @@
+br\ifes\leticia\ImpostodeRenda\app\Application.class
+br\ifes\leticia\ImpostodeRenda\model\CalculaImpostoStrategy.class
+br\ifes\leticia\ImpostodeRenda\model\CalculoImposto.class
+br\ifes\leticia\ImpostodeRenda\model\Aliquota1.class
+br\ifes\leticia\ImpostodeRenda\model\Aliquota2.class
+br\ifes\leticia\ImpostodeRenda\control\Pessoa.class
+br\ifes\leticia\ImpostodeRenda\model\Aliquota4.class
+br\ifes\leticia\ImpostodeRenda\model\Aliquota3.class
+br\ifes\leticia\ImpostodeRenda\model\Aliquota5.class
+br\ifes\leticia\ImpostodeRenda\control\ICalculaImposto.class

@@ -1,19 +1,16 @@
 package br.ifes.leticia.ImpostodeRenda.model;
 
-import br.ifes.leticia.ImpostodeRenda.control.Pessoa;
 import br.ifes.leticia.ImpostodeRenda.control.ICalculaImposto;
+import br.ifes.leticia.ImpostodeRenda.control.Pessoa;
 
 public class CalculaImpostoStrategy implements ICalculaImposto{
     protected double minimo;
     protected double maximo;
     protected double aliquota;
     protected double imposto;
+ 
     
-    public CalculaImpostoStrategy(){
-    	
-    }
-    
-	CalculaImpostoStrategy(double limMinimo, double limMaximo, double aliquota){
+	public CalculaImpostoStrategy(double limMinimo, double limMaximo, double aliquota){
         this.minimo = limMinimo;
         this.maximo = limMaximo;
         this.aliquota = aliquota;
@@ -52,14 +49,9 @@ public class CalculaImpostoStrategy implements ICalculaImposto{
 		this.imposto = imposto;
 	}
 	
-	public double calcImposto(double salario){
-		this.imposto = (salario * this.aliquota)/100;
-        return this.imposto;
-	}
-
 	public double calcularImpostoRenda(Pessoa pessoa){
         if (pessoa.getReceita() >= this.minimo && pessoa.getReceita() <= this.maximo){
-             this.imposto = pessoa.getReceita() * this.aliquota;
+             this.imposto = (pessoa.getReceita() * this.aliquota)/100;
              return this.imposto;
         }
         else{
