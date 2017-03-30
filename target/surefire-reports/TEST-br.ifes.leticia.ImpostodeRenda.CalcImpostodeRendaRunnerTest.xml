@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="br.ifes.leticia.ImpostodeRenda.CalcImpostodeRendaRunnerTest" time="0.092" errors="0" skipped="20">
+<testsuite tests="30" failures="0" name="br.ifes.leticia.ImpostodeRenda.CalcImpostodeRendaRunnerTest" time="0.01" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
     <property name="java.vm.version" value="25.77-b03"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Leticia Senna\workspace\ImpostodeRendaStrategyBDD"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Leticia Senna\Documents\GitHub\ImpostodeRendaStrategyBDD"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Leticia Senna\workspace\ImpostodeRendaStrategyBDD"/>
+    <property name="user.dir" value="C:\Users\Leticia Senna\Documents\GitHub\ImpostodeRendaStrategyBDD"/>
     <property name="java.runtime.version" value="1.8.0_77-b03"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Users\Leticia Senna\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1305625129114648377.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Leticia Senna\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5012292352021731034.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_77/jre/bin/server;C:/Program Files/Java/jdk1.8.0_77/jre/bin;C:/Program Files/Java/jdk1.8.0_77/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Leticia Senna\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Leticia Senna\workspace\ImpostodeRendaStrategyBDD\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Leticia Senna\Documents\GitHub\ImpostodeRendaStrategyBDD\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,92 +61,34 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="|  | 1903\u002C98 |  |" name="Given Eu tenho um salario" time="0.002"/>
-  <testcase classname="|  | 1903\u002C98 |  |" name="When Eu quero calcular o imposto do salario maior que o valor inicial \&quot;&lt;Valor_inicial&gt;\&quot;" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="|  | 1903\u002C98 |  |" name="And menor que o valor final \&quot;&lt;Valor_final&gt;\&quot;" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="|  | 1903\u002C98 |  |" name="Then Eu tenho o valor da aliquota \&quot;\&quot;" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="|  | 1903\u002C98 |  |" name="|  | 1903\u002C98 |  |" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="|  | 1903\u002C98 |  |" name="|  | 1903\u002C98 |  |" time="0.011"/>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="Given Eu tenho um salario" time="0.001"/>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="When Eu quero calcular o imposto do salario maior que o valor inicial \&quot;&lt;Valor_inicial&gt;\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="And menor que o valor final \&quot;&lt;Valor_final&gt;\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="Then Eu tenho o valor da aliquota \&quot;7\u002C5\&quot;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" name="| 1903\u002C99 | 2826\u002C65 | 7\u002C5 |" time="0.002"/>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="Given Eu tenho um salario" time="0"/>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="When Eu quero calcular o imposto do salario maior que o valor inicial \&quot;&lt;Valor_inicial&gt;\&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="And menor que o valor final \&quot;&lt;Valor_final&gt;\&quot;" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="Then Eu tenho o valor da aliquota \&quot;15\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="| 2826\u002C66 | 3751\u002C05 | 15 |" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 2826\u002C66 | 3751\u002C05 | 15 |" name="| 2826\u002C66 | 3751\u002C05 | 15 |" time="0.001"/>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="Given Eu tenho um salario" time="0"/>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="When Eu quero calcular o imposto do salario maior que o valor inicial \&quot;&lt;Valor_inicial&gt;\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="And menor que o valor final \&quot;&lt;Valor_final&gt;\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="Then Eu tenho o valor da aliquota \&quot;22\u002C5\&quot;" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" name="| 3751\u002C06 | 4664\u002C68 | 22\u002C5 |" time="0.002"/>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="Given Eu tenho um salario" time="0"/>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="When Eu quero calcular o imposto do salario maior que o valor inicial \&quot;&lt;Valor_inicial&gt;\&quot;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="And menor que o valor final \&quot;&lt;Valor_final&gt;\&quot;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="Then Eu tenho o valor da aliquota \&quot;27\u002C5\&quot;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="| 4664\u002C69 |  | 27\u002C5 |" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 4664\u002C69 |  | 27\u002C5 |" name="| 4664\u002C69 |  | 27\u002C5 |" time="0.003"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Given Eu tenho um salario" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="When Eu quero calcular o imposto de renda do salario \&quot;1900.0\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Valor minimo \&quot;0.0\&quot; e maximo \&quot;1903.98\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Then Eu tenho o valor da aliquota \&quot;0.0\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Eu tenho o valor \&quot;0.0\&quot; do imposto de renda" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Scenario: calculando o imposto de renda" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Given Eu tenho um salario" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="When Eu quero calcular o imposto de renda do salario \&quot;2000.0\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Valor minimo \&quot;1903.99\&quot; e maximo \&quot;2826.65\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Then Eu tenho o valor da aliquota \&quot;7.5\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Eu tenho o valor \&quot;150.0\&quot; do imposto de renda" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Scenario: calculando o imposto de renda" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Given Eu tenho um salario" time="0.009"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="When Eu quero calcular o imposto de renda do salario \&quot;3000.00\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Valor minimo \&quot;2826.66\&quot; e maximo \&quot;3751.05\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Then Eu tenho o valor da aliquota \&quot;15\&quot;" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="And Eu tenho o valor \&quot;450.0\&quot; do imposto de renda" time="0"/>
-  <testcase classname="Scenario: calculando o imposto de renda" name="Scenario: calculando o imposto de renda" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="Given Eu tenho um salario" time="0.003"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="When Eu quero calcular o imposto de renda do salario \&quot;1900.00\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="And Valor minimo \&quot;0.00\&quot; e maximo \&quot;1903.98\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="Then Eu tenho o valor da aliquota \&quot;0.00\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="And Eu tenho o valor \&quot;0.00\&quot; do imposto de renda" time="0.001"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" name="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.00 |" time="0.003"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="Given Eu tenho um salario" time="0.001"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="When Eu quero calcular o imposto de renda do salario \&quot;2000.00\&quot;" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="And Valor minimo \&quot;1903.99\&quot; e maximo \&quot;2826.65\&quot;" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="Then Eu tenho o valor da aliquota \&quot;7.5\&quot;" time="0.001"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="And Eu tenho o valor \&quot;150.00\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" name="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.00 |" time="0.001"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="When Eu quero calcular o imposto de renda do salario \&quot;3000.00\&quot;" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="And Valor minimo \&quot;2826.66\&quot; e maximo \&quot;3751.05\&quot;" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="Then Eu tenho o valor da aliquota \&quot;15\&quot;" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="And Eu tenho o valor \&quot;450.00\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" name="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.00 |" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="When Eu quero calcular o imposto de renda do salario \&quot;4000.00\&quot;" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="And Valor minimo \&quot;3751.06\&quot; e maximo \&quot;4664.68\&quot;" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="Then Eu tenho o valor da aliquota \&quot;22.5\&quot;" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="And Eu tenho o valor \&quot;900.00\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" name="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.00 |" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="When Eu quero calcular o imposto de renda do salario \&quot;5000.00\&quot;" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="And Valor minimo \&quot;4664.69\&quot; e maximo \&quot;999999.00\&quot;" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="Then Eu tenho o valor da aliquota \&quot;27.5\&quot;" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="And Eu tenho o valor \&quot;1375.00\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" name="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.00 |" time="0"/>
 </testsuite>
