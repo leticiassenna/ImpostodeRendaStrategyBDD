@@ -38,7 +38,7 @@ public class CalcImpostodeRendaSteps {
 	
 	@Then("^Eu tenho o valor \"([^\"]*)\" do imposto de renda$")
 	public void eu_tenho_o_valor_do_imposto_de_renda(String arg1) throws Throwable {
-		Double.compare(Double.parseDouble(arg1),calcImposto.getImposto());
+		assertEquals(arg1, Double.toString(calcImposto.getImposto()));
 	}
 	
 	
